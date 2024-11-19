@@ -61,7 +61,6 @@ items(id, itemname, value)
 equippable(id, equipslot)
 player_inventory(player, item)
 equipped(player, item, equipslot)
-
 ```
 
 **players** innehåller användarnamn, level och in-gamepengar för alla spelare.
@@ -85,7 +84,7 @@ equipped(player, item, equipslot)
    - Ett föremål med namnet "Databaser: Den kompletta boken" värt 495 och som utrustas som _weapon_.
    - Ett föremål med namnet "Ugnsvantar", värt 999 och utrustas som _gloves_.
    - En användare med namnet "kristian" som är level 100, bär det mäktiga Vorpal Sword och har "Databaser: Den kompletta boken" och "Ugnsvantar" i sitt inventory.
-   - En användare med namnet "thomas" som är level 2, bär ”Ugnsvantar” och har "Databaser: Den kompletta boken" i sitt inventory.
+   - En användare med namnet "robert" som är level 2, bär ”Ugnsvantar” och har "Databaser: Den kompletta boken" i sitt inventory.
 4. Testa dina constraints. Skriv INSERTS för var och en av följande åtgärder, de bör alla misslyckas om du har implementerat dina constraints korrekt.
    - Att utrusta "Java direkt med Swing" som Kristians weapon (föremålet går ej att ha på sig).
    - Att utrusta "Databaser: Den kompletta boken" som Kristians helmet (fel slot).
